@@ -27,6 +27,7 @@ class LRUCache(BaseCaching):
         self.order.append(key)
 
     def get(self, key):
+        """return linked key"""
         if key is None or key not in self.cache_data:
             return None
 
