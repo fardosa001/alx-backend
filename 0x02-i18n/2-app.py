@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Basic Babel setup"""
+"""Get locale from request"""
 from flask import Flask, render_template, request
 from flask_babel import Babel
 
